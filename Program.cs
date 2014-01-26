@@ -7,16 +7,16 @@ using System.Text;
 
 namespace Killer {
 
-	static class Program {
+    static class Program {
 
-        private const uint TB_BUTTONCOUNT = 0x0418;	    // WM_USER+24
-        private const uint TB_GETBUTTON = 0x0417;	    // WM_USER+23
-        private const uint TB_DELETEBUTTON = 0x0416;	// WM_USER+22
+        private const uint TB_BUTTONCOUNT = 0x0418;   // WM_USER+24
+        private const uint TB_GETBUTTON = 0x0417;     // WM_USER+23
+        private const uint TB_DELETEBUTTON = 0x0416;  // WM_USER+22
 
-        private static object key = new object();       // concurrency protection
+        private static object key = new object();     // concurrency protection
 
-		[STAThread]
-		static void Main(string[] args)
+        [STAThread]
+        static void Main(string[] args)
         {
             if (args.Length.Equals(1))
             {
@@ -24,7 +24,7 @@ namespace Killer {
             }
 
             CleanUpNotifyIcons();
-		}
+        }
 
         // Kill a program by name
         private static void KillProgram(string name)
@@ -155,7 +155,7 @@ namespace Killer {
             private uint reserved1;
             public IntPtr hIcon;
         }
-	}
+    }
 
     public class LP_Pinner : IDisposable
     {
