@@ -24,3 +24,4 @@ e.g. ``killer.exe myprogram``
 ## License
 
 LGPL. See ``LICENSE`` for more details.
+Icon from http://www.aha-soft.com
