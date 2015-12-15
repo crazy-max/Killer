@@ -1,5 +1,7 @@
 # Killer
 
+[![Killer 1.0.0.0 download](https://img.shields.io/badge/download-Killer%201.0.0.0-brightgreen.svg)](https://github.com/crazy-max/Killer/releases/download/v1.0.0.0/Killer.exe)
+
 Kill a program by process name and also clean-up notify and tray icons.<br />
 
 Tested on :
