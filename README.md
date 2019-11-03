@@ -1,4 +1,8 @@
-# Killer
+## :warning: Abandoned project
+
+This project is not maintained anymore and is abandoned. Feel free to fork and make your own changes if needed.
+
+# About
 
 [![Killer 1.0.0.0 download](https://img.shields.io/badge/download-Killer%201.0.0.0-brightgreen.svg)](https://github.com/crazy-max/Killer/releases/download/v1.0.0.0/Killer.exe)
 
